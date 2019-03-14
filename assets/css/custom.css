@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Event Countdown
+*/
+
+.event-countdown {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0;
+}
+
+.event-countdown .dash,
+.event-countdown .digit {
+    display: inline-block;
+}
+
+.event-countdown .dash {
+    margin: 0 -10px;
+}
+
+.event-countdown .days_dash,
+.event-countdown .hours_dash,
+.event-countdown .minutes_dash,
+.event-countdown .seconds_dash {
+    margin-bottom: 20px;
+}
+
+.event-countdown .time-number {
+    border-width: 3px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 150px;
+    font-size: 4em;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.event-countdown .digit {
+    overflow: hidden;
+    height: 125px;
+    margin: 0 -8px;
+}
+
+.event-countdown .dash_title {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
